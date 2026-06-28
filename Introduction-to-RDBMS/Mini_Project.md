@@ -120,24 +120,6 @@ SELECT * FROM TRAINING;
 | 101 | Rajesh | Chand | Cricket | 100 |
 | 102 | Jayesh | Raj | Hockey | 80 |
 | 103 | Mark | Dorsson | Football | 90 |
-
-### Answer (3NF)
-
-#### Member Table
-
-| Member_Id | First_Name | Last_Name | Sports |
-|-----------|------------|-----------|---------|
-| 101 | Rajesh | Chand | Cricket |
-| 102 | Jayesh | Raj | Hockey |
-| 103 | Mark | Dorsson | Football |
-
-#### Sports Fee Table
-
-| Sports | Fees |
-|---------|------|
-| Cricket | 100 |
-| Hockey | 80 |
-| Football | 90 |
 ### SQL Query
 
 ```sql
@@ -168,6 +150,24 @@ SELECT * FROM MEMBER;
 
 SELECT * FROM SPORTS_FEE;
 ```
+### Answer (3NF)
+
+#### Member Table
+
+| Member_Id | First_Name | Last_Name | Sports |
+|-----------|------------|-----------|---------|
+| 101 | Rajesh | Chand | Cricket |
+| 102 | Jayesh | Raj | Hockey |
+| 103 | Mark | Dorsson | Football |
+
+#### Sports Fee Table
+
+| Sports | Fees |
+|---------|------|
+| Cricket | 100 |
+| Hockey | 80 |
+| Football | 90 |
+
 ---
 
 ## Conclusion
